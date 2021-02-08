@@ -36,8 +36,14 @@ public:
 	
 	~InputControlComponent() {};
 
-	//#TODO_ADD_MOVEandCOPY
+	//#TODO_IMPLEMENT_MOVEandCOPY
+	//InputControlComponent(const InputControlComponent& other);
 
+	//InputControlComponent(InputControlComponent&& other);
+
+	//InputControlComponent& operator=(const InputControlComponent& other);
+
+	//InputControlComponent& operator=(InputControlComponent&& other);
 
 	void Initialize(Entity* owner) override;
 	void Update(float deltaTime) override;

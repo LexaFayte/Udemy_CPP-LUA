@@ -1,6 +1,26 @@
 #include "InputControlComponent.h"
 #include "../Entity.h"
 
+//InputControlComponent::InputControlComponent(const InputControlComponent& other)
+//{
+//
+//}
+//
+//InputControlComponent::InputControlComponent(InputControlComponent&& other)
+//{
+//
+//}
+//
+//InputControlComponent& InputControlComponent::operator=(const InputControlComponent& other)
+//{
+//
+//}
+//
+//InputControlComponent& InputControlComponent::operator=(InputControlComponent&& other)
+//{
+//
+//}
+
 void InputControlComponent::Initialize(Entity* owner)
 {
 	_owner = owner;
