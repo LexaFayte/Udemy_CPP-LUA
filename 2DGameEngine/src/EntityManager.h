@@ -2,6 +2,7 @@
 #include <vector>
 #include <string>
 #include "Constants.h"
+#include <SDL_events.h>
 
 class Entity;
 
@@ -35,6 +36,8 @@ public:
 	unsigned int GetEntityCount() const noexcept;
 
 	CollisionType CheckEntityCollisions(Entity& entity) const;
+
+	void InputReceived(SDL_Event e, bool keyDown);
 
 private:
 	void DestroyInactiveEntities();

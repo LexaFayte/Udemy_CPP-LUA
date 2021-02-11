@@ -2,6 +2,7 @@
 #include "Entity.h"
 #include "Collision.h"
 #include "Components/ColliderComponent.h"
+#include "Components/InputControlComponent.h"
 
 void EntityManager::ClearData()
 {
@@ -117,6 +118,25 @@ CollisionType EntityManager::CheckEntityCollisions(Entity& entity) const
 	}
 
 	return CollisionType::NONE;
+}
+
+void EntityManager::InputReceived(SDL_Event e, bool keyDown)
+{
+	for (auto& entity : _entities)
+	{
+		if (entity->HasComponent<InputControlComponent>())
+		{
+			auto* inputControl = entity->GetComponent<InputControlComponent>();
+			if (keyDown)
+			{
+				inputControl->OnKeyDown(e.key.keysym.sym);
+			}
+			else
+			{
+				inputControl->OnKeyUp(e.key.keysym.sym);
+			}
+		}
+	}
 }
 
 void EntityManager::DestroyInactiveEntities()

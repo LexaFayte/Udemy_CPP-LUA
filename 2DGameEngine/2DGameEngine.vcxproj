@@ -423,8 +423,11 @@
     <ClInclude Include="src\Constants.h" />
     <ClInclude Include="src\Entity.h" />
     <ClInclude Include="src\EntityManager.h" />
+    <ClInclude Include="src\Events\Event.h" />
+    <ClInclude Include="src\Events\KeyEvent.h" />
     <ClInclude Include="src\FontManager.h" />
     <ClInclude Include="src\Game.h" />
+    <ClInclude Include="src\Helpers.h" />
     <ClInclude Include="src\Map.h" />
     <ClInclude Include="src\Player.h" />
     <ClInclude Include="src\TextureManager.h" />

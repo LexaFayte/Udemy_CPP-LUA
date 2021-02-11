@@ -49,6 +49,8 @@ public:
 	void Update(float deltaTime) override;
 	void Render() override;
 
+	void OnKeyDown(SDL_Keycode keycode);
+	void OnKeyUp(SDL_Keycode keycode);
 private:
 
 	// VARS
