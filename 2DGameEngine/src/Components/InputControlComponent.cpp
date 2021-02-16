@@ -29,7 +29,6 @@ int SDLCALL KeyEventsWatch(void* data, SDL_Event* e)
 	{
 		Events::KeyPressedEvent keyPressedE(*e);
 		std::cout << keyPressedE.ToString();
-		//OnKeyDown(e->key.keysym.sym);
 	}
 
 	if (e->type == SDL_EventType::SDL_KEYUP)
