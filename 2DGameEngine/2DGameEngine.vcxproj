@@ -421,6 +421,10 @@
     <ClInclude Include="src\Components\TileComponent.h" />
     <ClInclude Include="src\Components\TransformComponent.h" />
     <ClInclude Include="src\Constants.h" />
+    <ClInclude Include="src\ECS\Components\PureComponent.h" />
+    <ClInclude Include="src\ECS\Entity\PureEntity.h" />
+    <ClInclude Include="src\ECS\Systems\PureSystem.h" />
+    <ClInclude Include="src\ECS\World.h" />
     <ClInclude Include="src\Entity.h" />
     <ClInclude Include="src\EntityManager.h" />
     <ClInclude Include="src\Events\Event.h" />
@@ -581,6 +585,7 @@
     <ClCompile Include="src\Components\InputControlComponent.cpp" />
     <ClCompile Include="src\Components\SpriteComponent.cpp" />
     <ClCompile Include="src\Components\TransformComponent.cpp" />
+    <ClCompile Include="src\ECS\Entity\PureEntity.cpp" />
     <ClCompile Include="src\Entity.cpp" />
     <ClCompile Include="src\EntityManager.cpp" />
     <ClCompile Include="src\FontManager.cpp" />
