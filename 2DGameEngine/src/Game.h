@@ -2,6 +2,7 @@
 #include <SDL.h>
 #include <SDL_image.h>
 #include <SDL_ttf.h>
+#include <EnTT/entt.hpp>
 
 #include "../libs/sol/sol.hpp"
 
@@ -49,4 +50,6 @@ private:
 	static SDL_Renderer* _renderer;
 	static AssetManager* _assetManager;
 	static EntityManager _entityManager;
+
+	entt::registry _registry;
 };

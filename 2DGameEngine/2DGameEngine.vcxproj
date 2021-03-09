@@ -73,22 +73,22 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <LibraryPath>A:\Documents_A\Udemy\C++_2DGame\2dgameengine\2DGameEngine\libs\lua;A:\SDL2\lib\x86;$(LibraryPath)</LibraryPath>
-    <IncludePath>A:\Documents_A\Udemy\C++_2DGame\2dgameengine\2DGameEngine\libs;A:\SDL2\include;$(IncludePath)</IncludePath>
+    <IncludePath>A:\Documents_A\Udemy\C++_2DGame\2dgameengine\2DGameEngine\libs\EnTT;A:\Documents_A\Udemy\C++_2DGame\2dgameengine\2DGameEngine\libs;A:\SDL2\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <LibraryPath>A:\Documents_A\Udemy\C++_2DGame\2dgameengine\2DGameEngine\libs\lua;A:\SDL2\lib\x86;$(LibraryPath)</LibraryPath>
-    <IncludePath>A:\Documents_A\Udemy\C++_2DGame\2dgameengine\2DGameEngine\libs;A:\SDL2\include;$(IncludePath)</IncludePath>
+    <IncludePath>A:\Documents_A\Udemy\C++_2DGame\2dgameengine\2DGameEngine\libs\EnTT;A:\Documents_A\Udemy\C++_2DGame\2dgameengine\2DGameEngine\libs;A:\SDL2\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <LibraryPath>A:\Documents_A\Udemy\C++_2DGame\2dgameengine\2DGameEngine\libs\lua;A:\SDL2\lib\x86;$(LibraryPath)</LibraryPath>
-    <IncludePath>A:\Documents_A\Udemy\C++_2DGame\2dgameengine\2DGameEngine\libs;A:\SDL2\include;$(IncludePath)</IncludePath>
+    <IncludePath>A:\Documents_A\Udemy\C++_2DGame\2dgameengine\2DGameEngine\libs\EnTT;A:\Documents_A\Udemy\C++_2DGame\2dgameengine\2DGameEngine\libs;A:\SDL2\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <LibraryPath>A:\Documents_A\Udemy\C++_2DGame\2dgameengine\2DGameEngine\libs\lua;A:\SDL2\lib\x86;$(LibraryPath)</LibraryPath>
-    <IncludePath>A:\Documents_A\Udemy\C++_2DGame\2dgameengine\2DGameEngine\libs;A:\SDL2\include;$(IncludePath)</IncludePath>
+    <IncludePath>A:\Documents_A\Udemy\C++_2DGame\2dgameengine\2DGameEngine\libs\EnTT;A:\Documents_A\Udemy\C++_2DGame\2dgameengine\2DGameEngine\libs;A:\SDL2\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

@@ -117,7 +117,6 @@ void Game::LoadLevel(int levelNumber)
 	//std::cout << "Components Attached:\n" << typeid(*testEntity._components[0]).name() << std::endl;
 	
 	// TEST
-
 }
 
 void Game::Initialize(int windowWitdth, int windowHeight)
